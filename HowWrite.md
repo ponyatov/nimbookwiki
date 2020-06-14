@@ -1,0 +1,21 @@
+# Как писать книгу
+
+Если вы хотите присоединиться к написанию этой книги, вам нужен комплект ПО:
+* `pandoc`
+* [Python3](https://www.python.org/) + `panflute`
+* `nim >= 1.2`
+* `git`, `make`
+
+#### Создание локальной копии для работы
+
+* создайте аккаунт на [GitHub](https://github.com/)
+* сделайте форк проекта [nimbook](https://github.com/ponyatov/nimbook)
+* склонируйте **свой** форк для локальной работы:
+```sh
+$ cd ~
+~$ git clone -o gh git@github.com:yourname/nimbook.git
+```
+
+#### Ссылки
+
+* Lee Phillips [Technical Writing with Pandoc and Panflute](https://lee-phillips.org/panflute-gnuplot/)
