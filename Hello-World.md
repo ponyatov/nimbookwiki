@@ -12,3 +12,23 @@ hello/src/hello.nim
 hello/hello.nimble
 ```
 
+В минимальный проект на языке Nim входят всего два файла:
+* `project.nimble` информация о проекте, обязательно его наличие как минимум для указания, какую версию компилятора и библиотек вам нужно
+* `src/project.nim` исходный код
+
+## `hello.nimble`
+
+```
+# Package
+
+version       = "0.1.0"
+author        = "Dmitry Ponyatov <dponyatov@gmail.com>"
+description   = "Hello World"
+license       = "MIT"
+srcDir        = "src"
+bin           = @["hello"]
+
+# Dependencies
+
+requires "nim >= 1.2.0"
+```
