@@ -3,13 +3,13 @@
 
 ```make
 # текущий каталог
-CWD		= $(CURDIR)
+CWD     = $(CURDIR)
 # имя пакета
-MODULE	= $(notdir $(CWD))
+MODULE  = $(notdir $(CWD))
 
 # дата (для .zip)
-NOW		= $(shell date +%d%m%y)
+NOW     = $(shell date +%d%m%y)
 # версия сборки (короткий git hash)
-REL		= $(shell git rev-parse --short=4 HEAD)
+REL     = $(shell git rev-parse --short=4 HEAD)
 
 ```
