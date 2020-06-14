@@ -41,6 +41,25 @@ choosenim-init:     export PATH=/home/nimtest/.nimble/bin:$PATH
 ~$ echo "export PATH=\$HOME/.nimble/bin:\$PATH" >> ~/.setenv
 ~$ echo ". ~/.setenv" >> ~/.profile
 ~$ echo ". ~/.setenv" >> ~/.xsesstionrc
+~$ . ~/.setenv
+```
+
+### проверка
+
+```sh
+~$ . ~/.setenv
+
+~$ nim -v
+Nim Compiler Version 1.2.0 [Linux: amd64]
+Compiled at 2020-04-03
+Copyright (c) 2006-2020 by Andreas Rumpf
+
+active boot switches: -d:release
+
+~$ nimble -v
+nimble v0.11.0 compiled at 2020-04-03 12:49:03
+git hash: couldn't determine git hash
+
 ```
 
 ### обновление
