@@ -30,4 +30,44 @@ hello: $(NIMBLE)
 	cd $@ ; $< build ; ./$@
 ```
 
+## установка/обновление (на примере Python-проекта)
 
+```make
+# установка ПО
+
+.PHONY: install
+install: debian $(PIP)
+	$(PIP) install    -r requirements.txt
+	$(MAKE) requirements.txt
+
+# обновление ПО
+
+.PHONY: update
+update: debian $(PIP)
+	$(PIP) install -U    pip
+	$(PIP) install -U -r requirements.txt
+	$(MAKE) requirements.txt
+
+$(PIP) $(PY):
+	python3 -m venv .
+	$(PIP) install -U pip pylint autopep8
+	$(MAKE) requirements.txt
+
+.PHONY: requirements.txt
+requirements.txt: $(PIP)
+	$< freeze | grep -v 0.0.0 > $@
+```
+## установка необходимых компонентов операционной системы (дистрибутива)
+
+```
+.PHONY: debian
+debian:
+	sudo apt update
+	sudo apt install -u `cat apt.txt`
+```
+
+#### `apt.txt` список пакетов необходимых для транслятора Nim
+
+```{file:apt.txt}
+git make build-essential
+```
