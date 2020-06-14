@@ -66,6 +66,8 @@ git hash: couldn't determine git hash
 
 ```sh
 ~$ choosenim update self
+   Updating choosenim
+      Info: Already up to date at version 0.6.0
 ```
 
 ## [[choosenim]]
