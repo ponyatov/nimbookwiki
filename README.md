@@ -4,11 +4,9 @@
 ```
 (c) <authors> 2020 CC BY-SA
 ```
-#### Authors
+#### [[Авторы]]
 
-* Dmitry Ponyatov <<dponyatov@gmail.com>>
-
-### Links
+#### Ссылки
 
 * github: https://github.com/ponyatov/nimbook
 
