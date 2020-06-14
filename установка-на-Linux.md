@@ -35,8 +35,10 @@ choosenim-init: You must now ensure that the Nimble bin dir is in your PATH.
 choosenim-init: Place the following line in the ~/.profile or ~/.bashrc file.
 choosenim-init:     export PATH=/home/nimtest/.nimble/bin:$PATH
 ```
+### [[переменные среды]]
+
 ```sh
-~$ echo "export PATH=/home/nimtest/.nimble/bin:\$PATH" >> ~/.setenv
+~$ echo "export PATH=\$HOME/.nimble/bin:\$PATH" >> ~/.setenv
 ~$ echo ". ~/.setenv" >> ~/.profile
 ~$ echo ". ~/.setenv" >> ~/.xsesstionrc
 ```
@@ -46,8 +48,6 @@ choosenim-init:     export PATH=/home/nimtest/.nimble/bin:$PATH
 ```sh
 ~$ choosenim update self
 ```
-
-### [[переменные среды]]
 
 ## [[choosenim]]
 ## [[nimble]]
