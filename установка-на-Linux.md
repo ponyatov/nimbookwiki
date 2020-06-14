@@ -69,6 +69,11 @@ git hash: couldn't determine git hash
    Updating choosenim
       Info: Already up to date at version 0.6.0
 ```
+```sh
+~$ choosenim update stable
+   Updating stable
+      Info: Already up to date at version 1.2.0
+```
 
 ## [[choosenim]]
 ## [[nimble]]
