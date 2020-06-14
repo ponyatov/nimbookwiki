@@ -15,7 +15,7 @@ https://www.nuvoton.com/products/microprocessors/arm9-mpus/
 | аппаратное крипто | *NUC976 | DES/3DES, AES, SHA/HMAC/PRNG |
 | 2x 100Mbit Ethernet (RMII)
 | LCD / 2D Accel
-| CCIR656/CCIR601 видеовход до 3 мегаписелей
+| видеовход | CCIR656/CCIR601 | до 3 мегаписелей |
 | SDHC
 | АЦП | 8x12bit |
 | SPI / I²C / PWM / CAN / ISO-7816
