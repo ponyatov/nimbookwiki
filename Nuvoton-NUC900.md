@@ -2,7 +2,11 @@
 
 https://www.nuvoton.com/products/microprocessors/arm9-mpus/
 
+Серия NuMicro NUC9xx отличается наличием подробной документации на ядро, не закрытой NDA.
+Что делает это семейство интересным для любителей низкоуровневого barematal программирования.
+
 ## NUC970
+### [[NuMaker Tomato]]
 
 * https://www.nuvoton.com/products/microprocessors/arm9-mpus/nuc970-industrial-control-series/
 * https://github.com/OpenNuvoton/NUC970_NonOS_BSP
