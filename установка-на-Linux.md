@@ -43,6 +43,28 @@ choosenim-init:     export PATH=/home/nimtest/.nimble/bin:$PATH
 ~$ echo ". ~/.setenv" >> ~/.xsesstionrc
 ~$ . ~/.setenv
 ```
+### установка пакетов дистрибутива Linux
+
+Так как [[транслятор Nim работает через генерацию кода на Си]], в системе должен быть установлен `$CC`, обычно это GNU `gcc`, но может использоваться и [[компилятор Intel]]. Также для работы необходимо несколько утилит управления проектом и контроля версий:
+```sh
+~$ sudo apt install -u git make build-essential
+[sudo] пароль для ponyatov: 
+Чтение списков пакетов… Готово
+Построение дерева зависимостей       
+Чтение информации о состоянии… Готово
+Уже установлен пакет build-essential самой новой версии (12.6).
+Уже установлен пакет git самой новой версии (1:2.20.1-2+deb10u3).
+Уже установлен пакет make самой новой версии (4.2.1-1.2).
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 14 пакетов не обновлено.
+```
+```sh
+~$ gcc --version
+gcc (Debian 8.3.0-6) 8.3.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+```
 
 ### проверка
 
