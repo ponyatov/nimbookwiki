@@ -22,7 +22,7 @@ import db_mysql
 ```nim
 # БД-источник
 
-const FROM_IP = "192.168.12.34"
+const FROM_IP = "192.168.123.45"
 const FROM_LOGIN = "user"
 const FROM_PSWD = "password"
 const FROM_DB = "forecast"
