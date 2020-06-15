@@ -50,7 +50,7 @@ hello: $(NIMBLE)
 	cd $@ ; $< build ; ./$@
 ```
 
-## минимальная версия
+## минимальная версия с [[nimpretty]]
 
 ```make
 CWD     = $(CURDIR)
@@ -60,7 +60,8 @@ MODULE  = $(notdir $(CWD))
 all: $(MODULE)
 	./$^
 
-$(MODULE): $(MODULE).nimble src/$(MODULE).nim Makefile
+$(MODULE): src/$(MODULE).nim $(MODULE).nimble Makefile
+	nimpretty $<
 	nimble build
 ```
 
