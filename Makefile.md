@@ -30,6 +30,20 @@ hello: $(NIMBLE)
 	cd $@ ; $< build ; ./$@
 ```
 
+## минимальная версия
+
+```make
+CWD     = $(CURDIR)
+MODULE  = $(notdir $(CWD))
+
+.PHONY: all
+all: $(MODULE)
+	./$^
+
+$(MODULE): $(MODULE).nimble src/$(MODULE).nim Makefile
+	nimble build
+```
+
 ## установка/обновление (на примере Python-проекта)
 
 ```make
