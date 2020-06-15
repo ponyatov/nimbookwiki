@@ -39,3 +39,17 @@ const TO_PSWD = "hiddenpassword"
 const TO_DB = "bully"
 ```
 
+```nim
+# немного тёплых логов
+when isMainModule:
+  addHandler(log)
+  log.log(lvlInfo, "")
+  log.log(lvlInfo, "FROM: db:" & $FROM_DB & "\t@ " & $FROM_IP & "\tlogin:" & FROM_LOGIN)
+  log.log(lvlInfo, "  TO: db:" & $TO_DB & "\t@ " & $TO_IP & "\tlogin:" & TO_LOGIN)
+```
+```
+./forecast
+[2020-06-15 17:02:39] - INFO: 
+[2020-06-15 17:02:39] - INFO: FROM: db:forecast @ 192.168.23.45 login:user
+[2020-06-15 17:02:39] - INFO:   TO: db:bully    @ 127.0.0.1     login:bully
+```
