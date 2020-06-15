@@ -53,3 +53,21 @@ when isMainModule:
 [2020-06-15 17:02:39] - INFO: FROM: db:forecast @ 192.168.23.45 login:user
 [2020-06-15 17:02:39] - INFO:   TO: db:bully    @ 127.0.0.1     login:bully
 ```
+
+```nim
+# открываем БД-источник
+
+let dbin = db_mysql.open(FROM_IP, FROM_LOGIN, FROM_PSWD, FROM_DB)
+```
+```
+./forecast
+[2020-06-15 17:08:17] - INFO: 
+[2020-06-15 17:08:17] - INFO: FROM: db:forecast @ 192.168.9.133 login:root
+[2020-06-15 17:08:17] - INFO:   TO: db:bully    @ 127.0.0.1     login:bully
+/home/ponyatov/bully/src/forecast.nim(41) forecast
+/home/ponyatov/.choosenim/toolchains/nim-1.2.0/lib/impure/db_mysql.nim(390) open
+/home/ponyatov/.choosenim/toolchains/nim-1.2.0/lib/pure/db_common.nim(100) dbError
+Error: unhandled exception: Unknown database 'forecast' [DbError]
+make: *** [Makefile:164: forecast] Ошибка 1
+```
+Как видим, даже выводятся какие-то вменяемые сообщения об ошибках.
