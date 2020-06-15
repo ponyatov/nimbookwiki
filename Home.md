@@ -23,6 +23,7 @@
     * [[ragel]]
     * [[flex/bison]]
   * [[библиотека LLVM]]
+  * [[встраиваемый интерпретатор NimScript]]
 * [[разработка для IoT и встраиваемых систем]]
   * [[Cortex-M]] | [[Cortex-A]] | [[ARM9]]
   * [[PowerPC]] @ [[Mac Mini G4]] | [[Mac OS Tiger]]
