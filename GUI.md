@@ -5,4 +5,5 @@
 ## [[NiGui]]
 ## [[NimQML]]
 ## [[nuklear]]
+## [[nimx]]
 ## [[NimboVision]] под ncurses/X11/GDI
