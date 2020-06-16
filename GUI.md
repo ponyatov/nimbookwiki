@@ -7,6 +7,7 @@ Platforms: Windows, macOS, Linux, *Android*, iOS, **Javascript**
 ## [[nuklear]]
 Platforms: Windows, macOS, Linux, *Android*, iOS
 ## [[NiGui]]
+Platforms: Windows (Win32 API), Linux/macOS (GTK+ 3)
 ## [[NimQML]]
 Platforms: Windows, macOS, Linux, *Android*, iOS
 ## [[NimboVision]] под ncurses/X11/GDI
