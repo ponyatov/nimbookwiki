@@ -3,11 +3,12 @@
 * Mattias Hager [Let's Explore GUI Options for Nim](https://matthiashager.com/gui-options-for-nim)
 
 ## [[nimx]]
-Platforms: Windows, macOS, Linux, *Android*, iOS, **Javascript**
+платформы: Windows, macOS, Linux, *Android*, iOS, **Javascript**
 ## [[nuklear]]
-Platforms: Windows, macOS, Linux, *Android*, iOS
+платформы: Windows, macOS, Linux, *Android*, iOS
 ## [[NiGui]]
-Platforms: Windows (Win32 API), Linux/macOS (GTK+ 3)
+платформы: Windows (Win32 API), Linux/macOS (GTK+ 3)
 ## [[NimQML]]
-Platforms: Windows, macOS, Linux, *Android*, iOS
+платформы: Windows, macOS, Linux, *Android*, iOS
 ## [[NimboVision]] под ncurses/X11/GDI
+платформы: ориентация на TUI: интерфейс на всевдографике в текстовой консоли
