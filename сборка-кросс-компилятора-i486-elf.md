@@ -1,4 +1,4 @@
-# сборка кросс-компилятора `i486-none-elf`
+# сборка кросс-компилятора `i486-elf`
 
 ```sh
 ~$ git clone -o gh https://github.com/ponyatov/nimos ; cd nimos
