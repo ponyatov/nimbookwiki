@@ -32,7 +32,7 @@
   * [[PowerPC]] @ [[Mac Mini G4]] | [[Mac OS Tiger]]
   * [[IoT-платформа]]
 * [[ЦОС]] цифровая обработка сигналов
-  * [[LADSPA]] Linux Audio Developer's Simple Plugin
+  * Обработка звука в плагинах [[LADSPA]]
 * [[разработка компиляторов]]
   * [[синтаксический анализ]]
     * [[ragel]]
