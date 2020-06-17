@@ -10,5 +10,6 @@
   * https://wiki.qemu.org/Documentation/GuestOperatingSystems/MacOS10.4
 
 ```sh
+~/nimbook/macG4$ make debian
 ~/nimbook/macG4$ make emu
 ```
