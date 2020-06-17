@@ -22,6 +22,7 @@
   * [[MySQL]]
   * [[sqlite]]
   * [[PostgreSQL]]
+  * [[ODBC]]
 * [[GUI]]: графический интерфейс пользователя
   * [[NiGui]]
   * [[NimboVision]] под ncurses/X11/GDI
