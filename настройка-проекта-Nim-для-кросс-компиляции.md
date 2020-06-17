@@ -1,5 +1,6 @@
 # настройка проекта Nim для кросс-компиляции
 
+* https://github.com/dom96/nimkernel
 * https://github.com/sk2sat/baremetal-nim
 
 
