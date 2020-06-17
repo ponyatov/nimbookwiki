@@ -1,5 +1,7 @@
 # *NimOS* операционная система на Nim
 
+https://github.com/ponyatov/nimos
+
 * https://wiki.osdev.org/Main_Page
 * https://forum.nim-lang.org/t/2305
 * https://www.osnews.com/story/28540/kernel-written-in-nim/
