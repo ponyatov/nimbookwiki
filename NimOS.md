@@ -14,3 +14,5 @@ https://github.com/ponyatov/nimos
 ## [[X11]]
 ### [[оконный менеджер]]
 ## [[bare metal x86]]
+### [[сборка кросс-компилятора i486-none-elf]]
+
