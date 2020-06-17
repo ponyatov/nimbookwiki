@@ -12,3 +12,5 @@ https://github.com/ponyatov/nimos
   * Григорьев В.Л. [Микропроцессор i486. Архитектура и программирование](http://publ.lib.ru/ARCHIVES/G/GRIGOR'EV_Vyacheslav_Leonidovich/_Grigor'ev_V.L..html) (в 4-х книгах)
 * Уилтон Р. **Видеосистемы персональных компьютеров IBM РС и РS2**
 * Вегнер, В.А.; Крутяков, А.Ю.; Серегин, В.В. [Аппаратура ПК и ее программирование. IBM PC/XT/AT и PC/2](https://www.ozon.ru/context/detail/id/165461332/)
+
+## [[сборка кросс-компилятора i486-none-elf]]
