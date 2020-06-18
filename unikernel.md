@@ -10,7 +10,7 @@ http://rumpkernel.org
 * C
   * http://rumpkernel.org (оригинальная концепция)
 * Nim
-  * https://github.com/dom96/nimkernel
+  * [[nimkernel]] @ https://github.com/dom96/nimkernel
   * https://github.com/ponyatov/nimos
 * Rust
   * https://github.com/rumpkernel/rumprun
