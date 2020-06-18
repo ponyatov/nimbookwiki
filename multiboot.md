@@ -8,3 +8,7 @@
 src/multiboot.S:
 	$(WGET) -O $@ https://github.com/dom96/nimkernel/raw/master/boot.s
 ```
+
+Есть две версии спецификации интерфейса загрузчика:
+* [Multiboot Specification version 0.6.96](https://www.gnu.org/software/grub/manual/multiboot/multiboot.html)
+* [Multiboot2 Specification version 2.0](https://www.gnu.org/software/grub/manual/multiboot2/multiboot.html)
