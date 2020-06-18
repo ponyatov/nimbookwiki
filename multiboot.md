@@ -13,4 +13,5 @@ src/multiboot.S:
 
 Есть две версии спецификации интерфейса загрузчика:
 * [Multiboot Specification version 0.6.96](https://www.gnu.org/software/grub/manual/multiboot/multiboot.html)
+  * [перевод](http://gownos.blogspot.com/2011/10/multiboot-specification.html)
 * [Multiboot2 Specification version 2.0](https://www.gnu.org/software/grub/manual/multiboot2/multiboot.html)
