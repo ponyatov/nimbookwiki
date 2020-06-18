@@ -1,4 +1,4 @@
-# rumpkernel
+# rumpkernel / unikernel
 
 http://rumpkernel.org
 
@@ -6,4 +6,14 @@ http://rumpkernel.org
 
 Ключевой признак rumpkernel -- **отсутствует выделенное (микро)ядро ОС**, все компоненты, выполняющие его функции, реализованы в виде обычных библиотек (объектных файлов), и компилируются вместе с приложением в один монолитный загрузочный образ, работающий в общем адресном пространстве, и без разделения уровней доступа на kernel/user space.
 
-Чаще всего реализуются для отдельных высокоуровневых языков программирования, в качестве эксперимента по написанию ОС не на Си. Для практических задач применение ядра Linux + init-процесса
+Чаще всего реализуются для отдельных высокоуровневых языков программирования, в качестве эксперимента по написанию ОС не на Си, для экспериментов по архитектурам программных систем (например распределенных), и для написания диссертаций:
+* C
+  * http://rumpkernel.org (оригинальная концепция)
+* Nim
+  * https://github.com/dom96/nimkernel
+  * https://github.com/ponyatov/nimos
+* Rust
+  * https://github.com/rumpkernel/rumprun
+* Erlang/Elixir
+  * [Erlang on Rumprun Unikernel](http://www.erlang-factory.com/static/upload/media/1474729921717518neerajsharmaerlangonrumprununikerneleuc2016.pdf) /pdf/
+  * https://github.com/neeraj9/hello-elixir-rump
