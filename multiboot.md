@@ -2,6 +2,8 @@
 
 https://wiki.osdev.org/Multiboot
 
+Самый универсальный с
+
 `src/multiboot.S`
 
 В примере stand-alone проекта [[nimkernel]] предоставлен **минимальный загрузчик для i386**, подключение которого в начало вашей прошивки сделает ёё загружаемой любым загрузчиком -- [[syslinux]], [[GRUB]], или `qemu -kernel firmware.elf`
